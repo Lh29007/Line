@@ -1,0 +1,120 @@
+================================================================================
+                    🚀 LINE GUI - DÉMARRAGE EN 30 SECONDES
+================================================================================
+
+ÉTAPE 1: Ouvrir PowerShell
+  → Windows+X, puis choisir "Terminal" ou "PowerShell"
+
+ÉTAPE 2: Aller au dossier LINE
+  cd C:\Users\aurel\Desktop\line
+
+ÉTAPE 3: Lancer l'installation
+  .\install-gui.ps1
+
+✅ TERMINÉ! L'application se lance automatiquement.
+
+================================================================================
+                                 ALTERNATIVE
+================================================================================
+
+Double-clic sur:
+  RUN.bat
+  
+(Compile automatiquement si besoin)
+
+================================================================================
+                              PREMIERS TESTS
+================================================================================
+
+1. Cliquer "Parcourir..." dans l'app
+2. Sélectionner un fichier .deb/.appimage/.exe
+3. Cliquer "Installer"
+4. Le package apparaît dans la liste
+5. Double-clic pour exécuter
+
+================================================================================
+                             BESOIN D'AIDE?
+================================================================================
+
+Diagnostiquer:
+  .\check-installation.ps1
+
+Lire un guide:
+  • GUI_QUICKSTART.md (6 minutes)
+  • GUI_README.md (développeurs)
+  • STATUS.md (état du projet)
+  • INDEX.md (tous les guides)
+
+================================================================================
+                          INFORMATIONS SYSTÈME
+================================================================================
+
+Prérequis: .NET 8 SDK
+  Vérifier: dotnet --version
+  
+  Si absent: https://dotnet.microsoft.com/en-us/download
+
+Support: Windows 10/11 x64
+Framework: .NET 8 WPF
+Version: 0.1.0 Beta
+
+================================================================================
+                            FICHIERS PRINCIPAUX
+================================================================================
+
+GUI/
+├── MainWindow.xaml        (Interface WPF)
+├── MainWindow.xaml.cs     (Logique C#)
+└── GUI.csproj             (Projet)
+
+install-gui.ps1            (Installation automatisée)
+build-gui.bat              (Compilation simple)
+check-installation.ps1     (Diagnostic)
+
+================================================================================
+                          COMMANDES RAPIDES
+================================================================================
+
+Compiler & tester:
+  .\install-gui.ps1
+
+Compiler seulement:
+  .\build-gui.bat
+
+Lancer directement:
+  .\bin\LINE.exe
+
+Vérifier la config:
+  .\check-installation.ps1
+
+================================================================================
+                           BON À SAVOIR
+================================================================================
+
+L'app installe les packages dans:
+  C:\Users\aurel\Desktop\line\packages\
+
+Formats supportés:
+  • .deb (paquets Debian)
+  • .appimage (applications portables)
+  • .exe / .bin (binaires Windows/Linux)
+
+Pas besoin de:
+  ✗ WSL
+  ✗ Virtualization
+  ✗ Droits admin (après première fois)
+
+================================================================================
+                           DOCUMENTATION
+================================================================================
+
+1. Pour utiliser: GUI_QUICKSTART.md
+2. Pour développer: GUI_README.md + MANIFEST.md
+3. Pour tracker: STATUS.md
+4. Pour tous les guides: INDEX.md
+
+================================================================================
+
+Prêt? → Exécuter: .\install-gui.ps1
+
+================================================================================

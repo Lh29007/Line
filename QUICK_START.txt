@@ -1,0 +1,76 @@
+╔════════════════════════════════════════════════════════════════╗
+║            LIGNE GUI - CHOIX RAPIDE SANS ADMIN                ║
+╚════════════════════════════════════════════════════════════════╝
+
+🚀 DÉMARRAGE IMMÉDIAT (30 secondes):
+
+  1. Double-clic sur: line-gui.bat
+  
+  ✅ L'interface s'ouvre directement
+  ✅ Aucune installation
+  ✅ Sans admin
+  ✅ Pur PowerShell
+
+════════════════════════════════════════════════════════════════
+
+📋 MENU INTERACTIF:
+
+  1. 📦 Installer un package
+  2. 📋 Lister mes packages
+  3. ▶️  Exécuter un package
+  4. 🗑️  Supprimer un package
+  5. 📁 Ouvrir le dossier
+  6. 🧹 Nettoyer le cache
+  7. ℹ️  À propos
+  0. ❌ Quitter
+
+════════════════════════════════════════════════════════════════
+
+💾 FORMATS SUPPORTÉS:
+
+  ✓ .deb    (Paquets Debian)
+  ✓ .appimage (Apps portables)
+  ✓ .exe    (Exécutables Windows)
+  ✓ .bin    (Binaires)
+
+════════════════════════════════════════════════════════════════
+
+✨ AUCUNE INSTALLATION:
+
+  ❌ Pas de .NET requis
+  ❌ Pas d'admin requis
+  ❌ Pas de dépendances
+  ✓ Fonctionne tout de suite!
+
+════════════════════════════════════════════════════════════════
+
+🎯 CAS D'USAGE:
+
+  👤 Installer et gérer des apps Linux
+  👤 Exécuter des packages .deb sur Windows
+  👤 Portable et simple
+  👤 Pas de WSL ni virtualisation
+
+════════════════════════════════════════════════════════════════
+
+📁 OÙ LES PACKAGES VONT:
+
+  C:\Users\[VotreUtilisateur]\Desktop\line\packages\
+
+════════════════════════════════════════════════════════════════
+
+✅ C'EST TOUT!
+
+Pas besoin de:
+  • Compiler
+  • Installer .NET
+  • Configurer
+  • Droits administrateur
+
+════════════════════════════════════════════════════════════════
+
+🚀 ALLEZ-Y:
+
+  Double-clic sur: line-gui.bat
+
+════════════════════════════════════════════════════════════════

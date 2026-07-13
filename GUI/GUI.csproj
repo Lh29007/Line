@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>LINE.GUI</RootNamespace>
+    <AssemblyName>LINE</AssemblyName>
+    <Version>0.1.0</Version>
+    <Description>LINE - Line is Not an Emulator. GUI application for running Linux packages on Windows.</Description>
+    <Authors>LINE Team</Authors>
+    
+    <!-- Configuration de publication en single file .exe -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishTrimmed>false</PublishTrimmed>
+    <SelfContained>true</SelfContained>
+    
+    <!-- Optimisations -->
+    <Platform>AnyCPU</Platform>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Support Windows 10/11 -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

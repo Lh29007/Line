@@ -1,0 +1,10 @@
+node_modules/
+packages/
+cache/
+bin/
+GUI/bin/
+GUI/obj/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

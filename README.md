@@ -35,12 +35,17 @@ line run checkra1n --version
 
 ## Installation
 
-```powershell
-# Ajouter au PATH
-$env:Path += ";$env:USERPROFILE\Desktop\line"
+### One-liner (recommandé)
 
-# Utiliser
-line --help
+```powershell
+iwr -useb https://github.com/Lh29007/Line/releases/latest/download/setup.ps1 | iex
+```
+
+### Manuelle
+
+```powershell
+git clone https://github.com/Lh29007/Line.git $env:USERPROFILE\Desktop\line
+powershell -ExecutionPolicy Bypass -File "$env:USERPROFILE\Desktop\line\setup.ps1"
 ```
 
 ## Commandes
